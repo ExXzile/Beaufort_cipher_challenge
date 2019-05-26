@@ -20,10 +20,10 @@ def beaufort_cipher_mathematical(m, key):
 
 def beaufort_cipher_manual(message, key):
 
-    UPPERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
-    alpha_len = len(UPPERS)
+    uppers = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_'
+    alpha_len = len(uppers)
     answer = ''
-    matrix = [[UPPERS[(n + mod) % alpha_len] for n in range(alpha_len)]
+    matrix = [[uppers[(n + mod) % alpha_len] for n in range(alpha_len)]
               for mod in range(alpha_len)]
 
     while len(key) <= len(message):
