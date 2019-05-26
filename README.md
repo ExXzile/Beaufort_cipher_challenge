@@ -4,3 +4,5 @@
 
 source credit: practicalcryptography.com\
 test harness template credit: Mark Geyzer
+
+challenge description - challenge.txt
