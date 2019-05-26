@@ -2,5 +2,5 @@
 @ Python Programming Language Facebook Group
 
 
-source credit: practicalcryptography.com
+source credit: practicalcryptography.com\
 test harness template credit: Mark Geyzer
