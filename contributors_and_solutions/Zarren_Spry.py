@@ -8,3 +8,5 @@ def beaufont(M, K):
   L = (K * (len(M)//len(K) + 1))[:len(M)]
   # Run algebratic magic
   return ''.join([D[i] for i in list(map(lambda i,j: (D.index(j) - D.index(i)) % len(D), M, L))])
+
+
