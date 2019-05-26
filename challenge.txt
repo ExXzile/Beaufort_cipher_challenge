@@ -3,7 +3,7 @@ Beaufort Cipher
 
 Introduction: 
 The Beaufort cipher, created by Sir Francis Beaufort, is a polyalphabetic substitution cipher
-that is similar to the Vigenère cipher, except that it enciphers characters in a slightly
+that is similar to the VigenÃ¨re cipher, except that it enciphers characters in a slightly
 different manner.
 
 The Algorithm: 
@@ -90,5 +90,8 @@ notes:
 - blank lines will be ignored
 - 1 char lines will be ignored.. e.g. to account for closing/opening brackets or parenthesises
 - lines longer than 72 characters will add up as up-rounded multiples of that number to the rating score.. 'cause PEP8
+
+test harness can be found in main repository as 'beaufort_cipher_test_harness.py'.
+
 
 good luck and good code!
